@@ -19,7 +19,7 @@ export default function Skills() {
     [gitLogo, "Git"],
     [antdLogo, "Ant Design"],
     [reduxLogo, "Redux"],
-    [illustratorLogo, "Adobe Illustrator"],
+    [illustratorLogo, "Illustrator"],
   ];
   return (
     <>
