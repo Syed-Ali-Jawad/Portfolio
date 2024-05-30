@@ -2,6 +2,7 @@ import portfolioProject from "../assets/Portfolio.png";
 import bookStoreProject from "../assets/The Book Store.png";
 import AddProject from "../Components/AddProject";
 import todoProject from "../assets/TodoListProject.png";
+import traliveProject from "../assets/Tralive project.png";
 
 export default function MyProjects() {
   return (
@@ -23,6 +24,12 @@ export default function MyProjects() {
           image={portfolioProject}
           title="Portfolio"
           description="A running portfolio of mine."
+        />
+        <AddProject
+          image={traliveProject}
+          title="Tralive"
+          description="A copy of Tralive theme developed on pure HTML CSS"
+          projectURL="https://syed-ali-jawad.github.io/Tralive-Project/"
         />
       </div>
     </div>
