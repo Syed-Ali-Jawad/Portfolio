@@ -3,6 +3,7 @@ import bookStoreProject from "../assets/The Book Store.png";
 import AddProject from "../Components/AddProject";
 import todoProject from "../assets/TodoListProject.png";
 import traliveProject from "../assets/Tralive project.png";
+import mediPlusProject from "../assets/MediPlus.png";
 
 export default function MyProjects() {
   return (
@@ -28,8 +29,14 @@ export default function MyProjects() {
         <AddProject
           image={traliveProject}
           title="Tralive"
-          description="A copy of Tralive theme developed on pure HTML CSS"
+          description="Landing Page inspired by Tralive ColarLib theme developed on pure HTML CSS"
           projectURL="https://syed-ali-jawad.github.io/Tralive-Project/"
+        />
+        <AddProject
+          image={mediPlusProject}
+          title="MediPlus"
+          description="Landing Page inspired by Tralive ColarLib theme developed using TailwindCSS, HTML and JavaScript"
+          projectURL="https://syed-ali-jawad.github.io/MediPlus/"
         />
       </div>
     </div>
