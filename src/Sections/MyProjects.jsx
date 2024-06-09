@@ -38,6 +38,7 @@ export default function MyProjects() {
           description="Landing Page inspired by Tralive ColarLib theme developed using TailwindCSS, HTML and JavaScript"
           projectURL="https://syed-ali-jawad.github.io/MediPlus/"
         />
+        <div style={{ width: "50%" }}></div>
       </div>
     </div>
   );

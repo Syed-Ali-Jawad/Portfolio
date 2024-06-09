@@ -7,6 +7,7 @@ import gitLogo from "../assets/Git Logo.png";
 import antdLogo from "../assets/ant-design.svg";
 import reduxLogo from "../assets/Redux.png";
 import illustratorLogo from "../assets/Illustrator logo.png";
+import tailwindLogo from "../assets/Tailwind CSS Logo.png";
 
 export default function Skills() {
   const programmingSkills = [
@@ -20,6 +21,7 @@ export default function Skills() {
     [antdLogo, "Ant Design"],
     [reduxLogo, "Redux"],
     [illustratorLogo, "Illustrator"],
+    [tailwindLogo, "Tailwind CSS"],
   ];
   return (
     <>
