@@ -20,8 +20,8 @@ export default function Skills() {
     [gitLogo, "Git"],
     [antdLogo, "Ant Design"],
     [reduxLogo, "Redux"],
-    [illustratorLogo, "Illustrator"],
     [tailwindLogo, "Tailwind CSS"],
+    [illustratorLogo, "Illustrator"],
   ];
   return (
     <>
