@@ -32,17 +32,17 @@ export default function MyProjects() {
         <AddProject
           image={portfolioProject}
           title="Portfolio"
-          description="A running portfolio of mine."
+          description="A portfolio showcasing my projects and skills, with contact information available."
         />
         <AddProject
           image={bookStoreProject}
           title="The Book Store"
-          description="A e-commerce store having roles of buyers, sellers and admin. Buyers and sellers can make account for book purcahse and sell while admin can view the book sold by date"
+          description="An e-commerce platform with roles for buyers, sellers, and admin. Buyers and sellers can create accounts to purchase and sell books, while the admin can track book sales by date."
         />
         <AddProject
           image={todoProject}
           title="Todo List"
-          description="A todo list where you can see statuses of you added tasks, view time left for the task, add an image related to the task."
+          description="A todo list application that allows users to track task statuses, monitor deadlines with countdown timers, and attach images relevant to each task."
         />
       </div>
     </div>
