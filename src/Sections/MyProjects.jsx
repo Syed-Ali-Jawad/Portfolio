@@ -4,6 +4,7 @@ import AddProject from "../Components/AddProject";
 import todoProject from "../assets/TodoListProject.png";
 import traliveProject from "../assets/Tralive project.png";
 import mediPlusProject from "../assets/MediPlus.png";
+import expenseEaseProject from "../assets/ExpenseEase.png";
 
 export default function MyProjects() {
   return (
@@ -38,7 +39,12 @@ export default function MyProjects() {
           description="Landing Page inspired by Tralive ColarLib theme developed using TailwindCSS, HTML and JavaScript"
           projectURL="https://syed-ali-jawad.github.io/MediPlus/"
         />
-        <div style={{ width: "50%" }}></div>
+        <AddProject
+          image={expenseEaseProject}
+          title="ExpenseEase"
+          description="ExpenseEase is a comprehensive expense and income tracking application. It allows users to add and manage expenses across various categories, and incomes from different sources and accounts. The application visualizes financial data through interactive line charts, pie charts, and detailed tables, enabling users to easily track and analyze their financial activities."
+          projectURL="https://syed-ali-jawad.github.io/ExpenseEase/"
+        />
       </div>
     </div>
   );
