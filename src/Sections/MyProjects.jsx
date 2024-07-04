@@ -12,26 +12,10 @@ export default function MyProjects() {
       <h1>My Projects</h1>
       <div className="project-cards">
         <AddProject
-          image={todoProject}
-          title="Todo List"
-          description="A todo list where you can see statuses of you added tasks, view time left for the task, add an image related to the task."
-        />
-        <AddProject
-          image={bookStoreProject}
-          title="The Book Store"
-          description="A e-commerce store having roles of buyers, sellers and admin. Buyers and sellers can make account for book purcahse and sell while admin can view the book sold by date"
-        />
-
-        <AddProject
-          image={portfolioProject}
-          title="Portfolio"
-          description="A running portfolio of mine."
-        />
-        <AddProject
-          image={traliveProject}
-          title="Tralive"
-          description="Landing Page inspired by Tralive ColarLib theme developed on pure HTML CSS"
-          projectURL="https://syed-ali-jawad.github.io/Tralive-Project/"
+          image={expenseEaseProject}
+          title="ExpenseEase"
+          description="ExpenseEase is a comprehensive expense and income tracking application. It allows users to add and manage expenses across various categories, and incomes from different sources and accounts. The application visualizes financial data through interactive line charts, pie charts, and detailed tables, enabling users to easily track and analyze their financial activities."
+          projectURL="https://syed-ali-jawad.github.io/ExpenseEase/"
         />
         <AddProject
           image={mediPlusProject}
@@ -40,10 +24,25 @@ export default function MyProjects() {
           projectURL="https://syed-ali-jawad.github.io/MediPlus/"
         />
         <AddProject
-          image={expenseEaseProject}
-          title="ExpenseEase"
-          description="ExpenseEase is a comprehensive expense and income tracking application. It allows users to add and manage expenses across various categories, and incomes from different sources and accounts. The application visualizes financial data through interactive line charts, pie charts, and detailed tables, enabling users to easily track and analyze their financial activities."
-          projectURL="https://syed-ali-jawad.github.io/ExpenseEase/"
+          image={traliveProject}
+          title="Tralive"
+          description="Landing Page inspired by Tralive ColarLib theme developed on pure HTML CSS"
+          projectURL="https://syed-ali-jawad.github.io/Tralive-Project/"
+        />
+        <AddProject
+          image={portfolioProject}
+          title="Portfolio"
+          description="A running portfolio of mine."
+        />
+        <AddProject
+          image={bookStoreProject}
+          title="The Book Store"
+          description="A e-commerce store having roles of buyers, sellers and admin. Buyers and sellers can make account for book purcahse and sell while admin can view the book sold by date"
+        />
+        <AddProject
+          image={todoProject}
+          title="Todo List"
+          description="A todo list where you can see statuses of you added tasks, view time left for the task, add an image related to the task."
         />
       </div>
     </div>
