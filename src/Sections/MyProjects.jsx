@@ -5,6 +5,7 @@ import todoProject from "../assets/TodoListProject.png";
 import traliveProject from "../assets/Tralive project.png";
 import mediPlusProject from "../assets/MediPlus.png";
 import expenseEaseProject from "../assets/ExpenseEase.png";
+import tempTellerProject from "../assets/TempTeller.png";
 
 export default function MyProjects() {
   return (
@@ -16,6 +17,12 @@ export default function MyProjects() {
           title="ExpenseEase"
           description="ExpenseEase is a comprehensive expense and income tracking application. It allows users to add and manage expenses across various categories, and incomes from different sources and accounts. The application visualizes financial data through interactive line charts, pie charts, and detailed tables, enabling users to easily track and analyze their financial activities."
           projectURL="https://syed-ali-jawad.github.io/ExpenseEase/"
+        />
+        <AddProject
+          image={tempTellerProject}
+          title="TempTeller"
+          description="Developed TempTeller, a weather forecast website that provides real-time weather updates based on user location or manual city input. The application stores and displays the forecast data of the last searched city in case of no location access and functions effectively with or without location permissions."
+          projectURL="https://syed-ali-jawad.github.io/TempTeller/"
         />
         <AddProject
           image={mediPlusProject}
@@ -44,6 +51,7 @@ export default function MyProjects() {
           title="Todo List"
           description="A todo list application that allows users to track task statuses, monitor deadlines with countdown timers, and attach images relevant to each task."
         />
+        <div style={{ width: "50%" }}></div>
       </div>
     </div>
   );
