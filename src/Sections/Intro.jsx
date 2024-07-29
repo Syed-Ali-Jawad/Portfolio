@@ -24,7 +24,7 @@ export default function Intro() {
     <section class="intro">
       <img
         class="profile-image"
-        src="https://media.licdn.com/dms/image/D4D03AQH-ycmTZYjKJA/profile-displayphoto-shrink_200_200/0/1709841205577?e=1721865600&v=beta&t=zZT_jmlcZtjZr7aGfnXFNetQMvP_MtW9kcsJGuARawg"
+        src="https://media.licdn.com/dms/image/D4D03AQH-ycmTZYjKJA/profile-displayphoto-shrink_200_200/0/1709841205577?e=1727913600&v=beta&t=7Q2-UShcneGTgrbn5kClAGa7G9ZzxarezoJ2mNT0lM4"
       />
       {greetings ? (
         <div className="greetings-message">
