@@ -196,7 +196,7 @@ h2 {
 #projects h1 {
   grid-row: 1;
   color: black;
-  margin: 10px auto;
+  margin: 20px auto;
 }
 
 .project-cards {
@@ -213,9 +213,7 @@ h2 {
 h2 {
   color: white;
 }
-#projects h1 {
-  margin: 2% auto;
-}
+
 .project-card {
   margin: 1% auto;
   width: 40%;
