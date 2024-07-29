@@ -231,7 +231,8 @@ h2 {
   }
   .nav-bar {
     justify-content: flex-start;
-    position: static;
+    position: sticky;
+    top: 0;
   }
   .nav-bar-btns {
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -241,6 +242,9 @@ h2 {
   .nav-bar-btn {
     padding: 5px 5px;
     font-size: 0.8em;
+  }
+  .nav-bar-btn:hover {
+    border: 0;
   }
   #about-me ul li {
     font-size: 0.8em;
